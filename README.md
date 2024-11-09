@@ -1,6 +1,6 @@
 # fluid-style
 
-Makes a CSS clamp with a calc value that fluidly scales a value between values.
+Make a CSS clamp with a calc value that fluidly scales a value between values.
 
 ## Usage
 
