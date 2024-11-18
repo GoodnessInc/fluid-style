@@ -1,6 +1,6 @@
 {
   "name": "fluid-style",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "sideEffects": false,
   "description": "Make a CSS clamp with a calc value that fluidly scales between min and max values",
