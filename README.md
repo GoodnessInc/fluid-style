@@ -6,10 +6,10 @@ Make a CSS clamp with a calc value that fluidly scales a value between values.
 
 ### Function
 
-```ts
+```js
 // tailwind.config.js
 import { fluid } from 'fluid-style'
-export deafult {
+export default {
   theme: {
     extend: {
       spacing: {
@@ -22,10 +22,10 @@ export deafult {
 
 ### Tailwind plugin
 
-```ts
+```js
 // tailwind.config.js
 import { fluidPlugin } from 'fluid-style'
-export deafult {
+export default {
   plugins: [
     fluidPlugin,
   ]
@@ -40,3 +40,21 @@ export function example() {
     </div>
   )
 }
+```
+
+### Preset
+
+Adds fluid versions of all the default spacing values using an `f` suffix. For example:
+
+- `py-8f`
+- `h-96f`
+
+```js
+// tailwind.config.js
+import { fluidPreset } from 'fluid-style'
+export default {
+  presets: [
+    fluidPreset,
+  ]
+}
+```
