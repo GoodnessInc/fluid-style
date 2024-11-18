@@ -1,19 +1,26 @@
 {
   "name": "fluid-style",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "type": "module",
   "sideEffects": false,
   "description": "Make a CSS clamp with a calc value that fluidly scales between min and max values",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
   "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "preversion": "npm run build"
   },
-  "dependencies": {
+  "peerDependencies": {
     "tailwindcss": "^3"
   },
   "devDependencies": {
+    "tailwindcss": "^3.4.15",
     "vite": "^5.4.10",
     "vite-plugin-dts": "^4.3.0",
     "vite-plugin-externalize-deps": "^0.8.0"
