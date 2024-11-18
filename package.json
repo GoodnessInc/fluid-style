@@ -5,6 +5,7 @@
   "sideEffects": false,
   "description": "Make a CSS clamp with a calc value that fluidly scales between min and max values",
   "license": "MIT",
+  "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
