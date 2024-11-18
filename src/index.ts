@@ -1,3 +1,3 @@
 import { fluid } from './fluid';
-import fluidPlugin from 'tailwindcss/plugin';
+import fluidPlugin from './tailwindPlugin';
 export { fluid, fluidPlugin };
