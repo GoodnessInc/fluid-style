@@ -4,9 +4,13 @@
   "type": "module",
   "sideEffects": false,
   "description": "Make a CSS clamp with a calc value that fluidly scales between min and max values",
+  "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "vite build",
     "preversion": "npm run build"
